@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Notes App</h1>
+    </header>
+    <main id="app">
+      <!-- Container untuk menampilkan catatan -->
+      <section class="notes-container" id="notesContainer">
+        <!-- Catatan akan ditampilkan di sini -->
+      </section>
+
+      <!-- Formulir untuk menambah catatan baru -->
+      <form id="addNoteForm">
+        <input type="text" id="noteTitleInput" placeholder="Enter note title" required />
+        <textarea id="noteBodyInput" placeholder="Enter note body" required></textarea>
+        <button type="submit">Add Note</button>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
